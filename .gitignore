@@ -1,0 +1,26 @@
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# renv
+renv/library/
+renv/staging/
+renv/cache/
+
+# Dados locais
+data/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/*.log
+*.swp
+*.swo
+
+# Arquivos temporarios e resultados locais
+*.tmp
+*.temp

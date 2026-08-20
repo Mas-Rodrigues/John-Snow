@@ -1,0 +1,6 @@
+{
+    "r.linting.enable": false,
+    "r.lsp.diagnostics": false,
+    "python.linting.enabled": false,
+    "python.linting.pylintEnabled": false
+}
