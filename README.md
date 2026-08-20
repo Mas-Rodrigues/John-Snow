@@ -21,8 +21,7 @@ A imagem acima é uma captura estática do mapa produzido pelo projeto. As cores
 O KDE é calculado depois da transformação dos dados para o `EPSG:27700`, um sistema de coordenadas projetado para a região do Reino Unido. Como suas
 unidades são metros, ele permite que as distâncias e a largura de banda do KDE sejam calculadas em uma escala adequada. Depois do cálculo, os dados retornam para o `EPSG:4326`, usado pelo mapa web.
 
-O parâmetro `bandwidth_adjust = 0.5` controla o nível de suavização da estimativa. Um valor menor produz hotspots mais locais e detalhados; um valor
-maior gera uma superfície mais suave e generalizada. Neste projeto, `0.5` foi mantido como uma escolha didática para evidenciar a concentração dos óbitos ao redor da bomba de Broad Street. Essa visualização indica uma associação espacial, mas não constitui, sozinha, uma prova causal.
+O parâmetro `bandwidth_adjust = 0.5` controla o nível de suavização da estimativa. Um valor menor produz hotspots mais locais e detalhados; um valor maior gera uma superfície mais suave e generalizada. Neste projeto, `0.5` foi mantido como uma escolha didática para evidenciar a concentração dos óbitos ao redor da bomba de Broad Street. Essa visualização indica uma associação espacial, mas não constitui, sozinha, uma prova causal.
 
 ## Requisitos
 
