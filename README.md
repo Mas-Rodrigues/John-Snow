@@ -5,7 +5,7 @@ históricos de óbitos com a localização das bombas d'água para explorar a re
 
 ## O que o projeto faz
 
-- Baixa e extrai o conjunto de dados histórico do GeoDa Center;
+- Baixa e extrai o conjunto de dados históricos do GeoDa Center;
 - Lê os dados geográficos com `sf`;
 - Calcula uma estimativa de densidade de Kernel (KDE) em uma grade hexagonal, ponderada pelo número de óbitos;
 - Cria um mapa interativo com `leaflet`, mostrando a densidade de casos e as bombas d'água.
